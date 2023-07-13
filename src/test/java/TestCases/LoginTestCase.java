@@ -27,10 +27,10 @@ public class LoginTestCase {
 		LoginPojoClass loginPojoClass=new LoginPojoClass(driver);
 		loginPojoClass.login("Admin", "admin123");
 	}
-	//	@AfterClass
-	//	public static void afterClass() {
-	//		driver.close();
-	//	}
+		@AfterClass
+		public static void afterClass() {
+			driver.close();
+		}
 
 
 }
